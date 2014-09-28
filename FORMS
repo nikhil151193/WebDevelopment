@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title>FORMS</title>
+	<script type="text/javascript">
+	function greetfunction () {
+		var x="";
+
+		var time=new Date().getHours();
+		if(time<12){
+			x="good day";
+		} 
+		else{
+			x="good evenong";
+		}
+		alert(x);
+		
+	}
+
+
+
+	</script>
+
+</head>
+<body>
+<form method="post">
+<table border = "1">
+
+	<tr>
+		<td>Username</td>
+		<td><input type="text" id="txt_UserName"></td>
+
+	</tr>
+	<tr>
+		<td>DOB</td>
+		<td><input type="date" id="txt_UserName"></td>
+
+	</tr>
+	
+	<tr>
+		<td>Password</td>
+		<td><input type="password" id="txt_PassWord"> </td>
+	</tr>
+	<tr>
+		<td>gender</td>
+
+	<td>
+	<input list="gender">		
+	<datalist id="gender">
+		<option value="male">
+		<option value="female">
+	</datalist></td>
+	</tr>
+	<tr>
+		<td><input type="button" 
+				   value ="submit"
+				   id="btn_submit">
+		</td>
+		<td><input type="submit"></td>
+	</tr>
+	<tr>
+		<td><input type="button" 
+				   value ="GREET ME"
+				   id="greet"
+				   onClick = "greetfunction()">
+		</td>
+		
+	</tr>
+	
+
+
+
+</table>
+</form>
+</body>
+</html>

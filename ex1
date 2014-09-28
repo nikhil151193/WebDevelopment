@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title> HELLO RNSIT </title>
+
+
+</head>
+<body bgcolor="cyan">
+
+this is my first html work
+
+	<div>
+		&nbsp;This is division
+	</div>
+<table border = "2">
+	<tr>
+		<td>S.No</td>
+		<td>Name</td>
+	</tr>
+	<tr bgcolor="red">
+		<td>1</td>
+		<td>Nikhil</td>
+
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>ayush</td>
+
+	</tr>
+
+
+</table>
+<a href="http://www.google.com" 
+	target="_blank">
+	Go to google
+</a>
+
+<img src="http://icons.iconarchive.com/icons/yootheme/social-bookmark/512/social-google-box-icon.png">
+
+</body>
+</html>
